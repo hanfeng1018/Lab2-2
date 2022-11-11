@@ -1,0 +1,19 @@
+<view class="container">
+    <image class="bgImg" src="../../image/game.jpg"></image>
+    <other-widget class="other-widget">
+        <view class="gotopage_create">
+            <navigator url='/pages/create/create'>
+                <image src='../../image/moon.png' class='create' style="position: fixed; left: 106rpx; top: 29rpx; width: 424rpx; height: 424rpx; display: flex; box-sizing: border-box"></image>
+                <view class='font_create' style="position: fixed; left: 168rpx; top: 64rpx">创建</view>
+                <view class='font_create2' style="position: fixed; left: 168rpx; top: 127rpx">房间</view>
+            </navigator>
+        </view>
+        <view class="gotopage_join">
+            <navigator url='/pages/join/join'>
+                <image src='../../image/moon.png' class='join' style="width: 424rpx; height: 424rpx; display: flex; box-sizing: border-box; left: 108rpx; top: 592rpx; position: fixed"></image>
+                <view class='font_join' style="position: fixed; left: 220rpx; top: 678rpx">加入</view>
+                <view class='font_join2' style="position: fixed; left: 220rpx; top: 742rpx">房间</view>
+            </navigator>
+        </view>
+    </other-widget>  <!-- other widget希望是放在背景图片之上的 -->
+</view>
